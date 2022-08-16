@@ -12,4 +12,4 @@ echo "Installing home packages"
 home-manager switch
 
 curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
-omf install lambda
+fish -c "omf install lambda"
