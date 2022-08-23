@@ -48,7 +48,7 @@ in
                 };
             };
             shell = {
-                program = "${pkgs.fish}/bin/zsh";
+                program = "${pkgs.zsh}/bin/zsh";
             };
         };
     };
