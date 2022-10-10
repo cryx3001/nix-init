@@ -1,10 +1,6 @@
 {...}:
-
-let
-unstable = import <nixos-unstable> {config = {allowUnfree = true; }; };
-in
 {
     enable = true;
-    theme = "bira";
+    theme = "jtriley";
     plugins = ["colored-man-pages"];
 }
