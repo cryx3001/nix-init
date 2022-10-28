@@ -1,8 +1,8 @@
 echo "Creating / updating needed channel and preparing nvim config"
-nix-channel --add https://nixos.org/channels/nixos-unstable nixos-unstable
+nix-channel --add https://nixos.org/channels/nixos-22.05 nixos-stable
 nix-channel --update
 
-nix-env -iA nixos-unstable.home-manager
+nix-env -iA nixos-stable.home-manager
 
 git clone https://github.com/cryx3001/nvim-config.git ~/.config/nvim &
 
