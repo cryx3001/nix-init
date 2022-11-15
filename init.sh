@@ -17,6 +17,6 @@ echo "Installing home packages"
 home-manager switch
 
 if [ "$clone_fail" -ne "0" ]; then
-    printf "\n\e[1;33mThe clone of the neovim config failed!\nIf the respository already exists, you should try to pull for the latest updates\n"
+    printf "\n\e[1;33mThe clone of the neovim config failed!\nIf the respository already exists, you should try to pull for the latest updates\n\e[0m"
 fi
 
