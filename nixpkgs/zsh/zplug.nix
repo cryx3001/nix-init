@@ -10,6 +10,5 @@ in
         { name = "zsh-users/zsh-syntax-highlighting";}
         { name = "zsh-users/zsh-completions";}
         { name = "wting/autojump";}
-        { name = "jeffreytse/zsh-vi-mode";}
     ];
 }
